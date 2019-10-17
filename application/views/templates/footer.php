@@ -5,6 +5,6 @@ Purpose: MVC Frameworks
 Notes: Learning Codeigniter to better understand MVC programming.
 ********************************************************* -->
               
-                <em>&copy; 2019</em>
+                <em>&copy; 2019 Y. E. M. Gunter</em>
         </body>
 </html>
