@@ -11,7 +11,7 @@ Notes: Learning Codeigniter to better understand MVC programming.
         </head>
         <body>
             <div class="nav-section">
-                <a href="#" class="menu-link">Home</a>
-                <a href="#" class="menu-link">About</a>
+                <a href="../pages/home.php" class="menu-link">Home</a>
+                <a href="../pages/about.php" class="menu-link">About</a>
             </div>
                 <h1><?php echo $title; ?></h1>
