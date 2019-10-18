@@ -7,11 +7,21 @@ Notes: Learning Codeigniter to better understand MVC programming.
 <!DOCTYPE html>
 <html>
         <head>
-                <title>CodeIgniter Tutorial</title>
+            <link rel='stylesheet' type="text/css" href="<?php echo base_url().'css/main.css' ?>"/>
+            <title>CodeIgniter Tutorial</title>
         </head>
         <body>
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div class="well">
+                            <center>< <h1><?php echo $title; ?></h1></center>
+                        </div>
+                    </div>
+                </div>
+         
             <div class="nav-section">
-                <a href='inedex.php/views/pages/home.php' class="menu-link">Home</a>
-                <a href='views/pages/about.php' class="menu-link">About</a>
+               $this->load->view('pages/home')
+               $this->load->view('pages/about') 
             </div>
-                <h1><?php echo $title; ?></h1>
+               
