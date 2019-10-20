@@ -7,17 +7,15 @@ Notes: Learning Codeigniter to better understand MVC programming.
 <!DOCTYPE html>
 <html>
         <head>
-            <link rel='stylesheet' type="text/css" href="css/main.css"/>
-            <title>CodeIgniter Tutorial</title>
+            <title>Y Gunter - Coding 06 MVC</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="assets/main.css" rel="stylesheet">
+            <link href="assets/favicon.ico" rel="icon">
         </head>
           <body>
-             
-        <div class="nav-section">
-            <ul>
-                <li><a href="index.php" class="menu-link">Home</a></li>
-                <li><a href="about.php" class="menu-link">About</a></li>
-             </ul>
-        </div>
-              
-               <h1><?= $title ?></h1>
-               
+              <div class="container">
+                  <div class="headerlink">
+                      <img src="assets/banner.png" id="banner">
+                  </div>
+              </div>
