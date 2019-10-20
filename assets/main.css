@@ -9,4 +9,8 @@ Notes: Learning Codeigniter to better understand MVC programming.
     Author     : Yolanda Gunter
 */
 
+/* This is the css is mobile-first */
 
+body {
+    background-color: #b5dacd
+}
