@@ -9,8 +9,20 @@ Notes: Learning Codeigniter to better understand MVC programming.
     Author     : Yolanda Gunter
 */
 
-/* This is the css is mobile-first */
+/* This is the css that is mobile-first */
 
 body {
-    background-color: #b5dacd
+    background-color: #e2d1dd /* Sets background to light lilac. */
+} 
+
+.bodywrapper {
+    width: 80%;
+    background-color: #fff;   
+}
+
+
+yolanda {
+    width="350";
+    height="466";
+    align="left";
 }
