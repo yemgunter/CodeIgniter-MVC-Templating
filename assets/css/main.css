@@ -4,25 +4,46 @@ Assignment: Coding 06
 Purpose: MVC Frameworks
 Notes: Learning Codeigniter to better understand MVC programming.
 **********************/
-/* 
-    Created on : Oct 17, 2019, 11:12:25 PM
-    Author     : Yolanda Gunter
-*/
 
-/* This is the css that is mobile-first */
+
+// This applies from 0px to 600px
+
+.container {
+    align-center;
+}
+
+img {
+    max-width: 100%;
+}
 
 body {
-    background-color: #e2d1dd /* Sets background to light lilac. */
-} 
+  background: #e2d1dd;
+}
 
 .bodywrapper {
-    width: 80%;
-    background-color: #fff;   
+    align-center;
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.container {
+    align-center;
+    padding: 20px 50px 20px;
+    max-width: 100%;
 }
 
 
-yolanda {
-    width="350";
-    height="466";
-    align="left";
+// This applies from 600px onwards
+@media (min-width: 600px) {
+  body {
+    background: #fff;
+  }
+  
+  .container {
+      width: 100%;
+  }
+  
+  .header_banner {
+    width: 100%;
+  }
 }
