@@ -15,7 +15,7 @@ Notes: Learning Codeigniter to better understand MVC programming.
             <h1>Welcome to my Coding 06 MVC Assignment!</h1>
             <div id="container">
                 <div id="body">
-                    <p><h2>This assignment was challenging!</h2></p>
+                    <h2>This assignment was challenging!</h2>
 
                     <p>Although I have plenty of experience working on the back end coding of CMSs like:</p>
                     <ul>
