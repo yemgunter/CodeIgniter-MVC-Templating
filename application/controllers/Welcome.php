@@ -28,5 +28,9 @@ class Welcome extends CI_Controller {
 	{	
             $this->load->view('welcome_message');
 	} 
-       
+        
+        public function about()
+        {
+            echo "Connect with me using @yemgunter on IG & FB!";
+        }
 }
