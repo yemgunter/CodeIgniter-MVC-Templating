@@ -28,7 +28,8 @@ Notes: Learning Codeigniter to better understand MVC programming.
                     <br>the handy User Guide which included; reading a number of articles and watching hours of videos, 
                     <br>which all helped me with this project.</p>
                     
-                    <p>Learn more about me here.</p>
+                    <p>Learn more about me <a href="../../views/about.php" target="new">here.</a></p>
+                   
                 </div>
             </div>
         </div>
