@@ -33,7 +33,7 @@ header{
     max-width: 100%;
     font: bold 16px sans-serif;
      
-    padding: 20px 20px;
+    padding: 20px 20px 20px 20px;
     margin-top: 10px;
     margin-bottom: 10px;    
 }
@@ -57,20 +57,19 @@ body {
 .bodywrapper {
     background-color: #fff;
     max-width: 100%;
-    padding: 20px 50px;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1),
+        -5px 0px 5px rgba(0, 0, 0, 1);
+    padding: 10px 20px 10px 20px;
+   
 }
 
 .bodywrapper img {
-    float: left;
+    float: none;
 }
 
-#container {
+.container {
     border: 2px;
     max-width: 100%;
-    padding: 20px 50px 20px;
-    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1),
-        -10px 0px 10px rgba(0, 0, 0, 1);
-    text-align: left;
 }
 
 footer {
@@ -84,11 +83,12 @@ footer {
     font: bold 16px sans-serif;
     text-align: left;
     
-    padding: 20px 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
 }
     
 .footer-distributed .footer-left,
@@ -103,7 +103,7 @@ footer {
     }
     
 .footer-distributed .footer-icons{ 
-        
+        font-size: 45px;
 }
     
 .footer-distributed .footer-center a{
@@ -112,7 +112,7 @@ footer {
 }
 
 .footer-distributed .footer-center i{
-        margin-left: 0;
+        margin-left: 20px;
 }
 
 .copyright {
@@ -121,6 +121,11 @@ footer {
     text-align: center;
     color: #740074;
     font: bold 14px sans-serif;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 /* This applies from 600px onwards*/
@@ -151,16 +156,15 @@ footer {
   
    body {
         background: #fff;
-        width: 100%
     }
     
     .bodywrapper {
         background-color: #e2d1dd;
-        width: 100%;
+        width: 90%;
     }
     
     .container {
-      width: 100%;
+      width: 80%;
   }
 
 @media (min-width: 600px) { 
