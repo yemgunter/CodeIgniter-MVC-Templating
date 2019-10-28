@@ -1,49 +1,199 @@
-/*********************
+/***************************************************************
 Name: Yolanda Gunter
 Assignment: Coding 06
 Purpose: MVC Frameworks
 Notes: Learning Codeigniter to better understand MVC programming.
-**********************/
+***************************************************************/
+/* 
+    Created on : Oct 17, 2019, 11:12:25 PM
+    Author     : Yolanda Gunter
+*/
+
+/* This applies from 0px to 600px */
 
 
-// This applies from 0px to 600px
+h1 {
+    color: #740074;
+}
 
-.container {
-    align-center;
+h2 {
+    color: darkgreen;
 }
 
 img {
     max-width: 100%;
 }
 
+header{
+     margin: 10px auto;
+}
+
+.nav-section {
+    background: #740074;
+    max-width: 100%;
+    font: bold 16px sans-serif;
+     
+    padding: 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.nav-section a {
+    color:#b5dacd;
+    vertical-align: central;
+    text-align: center;
+    font: bold 18px sans-serif;
+    text-transform: uppercase;
+  
+}
+
+
 body {
   background: #e2d1dd;
+  margin: 3em;
+  height: auto;
 }
 
 .bodywrapper {
-    align-center;
-    max-width: 100%;
     background-color: #fff;
-}
-
-.container {
-    align-center;
-    padding: 20px 50px 20px;
     max-width: 100%;
+    padding: 20px 50px;
 }
 
+.bodywrapper img {
+    float: left;
+}
 
-// This applies from 600px onwards
+#container {
+    border: 2px;
+    max-width: 100%;
+    padding: 20px 50px 20px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1),
+        -10px 0px 10px rgba(0, 0, 0, 1);
+    text-align: left;
+}
+
+footer {
+    background-color: #740074;
+    position: static;
+    bottom: 0;
+}
+
+.footer-distributed {
+    color: #fff;
+    font: bold 16px sans-serif;
+    text-align: left;
+    
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+        display: block;
+        max-width: 100%;
+        text-align: center;
+}    
+.footer-distributed h3 {
+        color: #b5dacd;
+    }
+    
+.footer-distributed .footer-icons{ 
+        
+}
+    
+.footer-distributed .footer-center a{
+	color:  #e2d1dd;
+	text-decoration: none;
+}
+
+.footer-distributed .footer-center i{
+        margin-left: 0;
+}
+
+.copyright {
+    background-color: #b5dacd;
+    max-width: 100%;
+    text-align: center;
+    color: #740074;
+    font: bold 14px sans-serif;
+}
+
+/* This applies from 600px onwards*/
 @media (min-width: 600px) {
-  body {
-    background: #fff;
+    h1 {
+    color: darkgreen;
+    }
+    
+    h2 {
+        color: #740074;
+    }
+
+   
+    .header {
+        background-color: #EFF0F1; 
+        margin: 0 auto;
+   
   }
   
-  .container {
+  .header img {
+      align: center;
+      width: 100%
+  }
+  
+  .nav-section {
+      
+  }
+  
+   body {
+        background: #fff;
+        width: 100%
+    }
+    
+    .bodywrapper {
+        background-color: #e2d1dd;
+        width: 100%;
+    }
+    
+    .container {
       width: 100%;
   }
-  
-  .header_banner {
-    width: 100%;
-  }
+
+@media (min-width: 600px) { 
+    
+  .footer-distributed {
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 50px 50px;
+	margin-top: 80px;
+    }
+ 
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+            display: inline-block;
+            vertical-align: top;
+
+    }
+    .footer-distributed .footer-left{
+            width: 30%;
+            text-align: left;
+    }
+    .footer-distributed .footer-center{
+            width: 30%;
+            text-align: left;
+    }
+    .footer-distributed .footer-right{
+            width: 30%;
+            text-align: left;
+    }
 }
+
