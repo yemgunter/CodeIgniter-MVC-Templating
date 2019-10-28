@@ -16,6 +16,6 @@ Notes: Learning Codeigniter to better understand MVC programming.
             <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
         </head>
           <body>
-              <div class="header_banner"> 
-                  <img src="assets/images/banner.png" alt="banner" id="banner">
+              <div id="header"> 
+                  <img src="assets/images/banner.png" alt="banner">
               </div>
