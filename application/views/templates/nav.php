@@ -5,13 +5,11 @@ Purpose: MVC Frameworks
 Notes: Learning Codeigniter to better understand MVC programming.
 ********************************************************* -->
 <div class="nav-section">
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="about">About</a></li>
-    </ul>
+    <a title="Home" accesskey="A" href="index.php">Home</a>
+    <a title="About" accesskey="B" href="../pages/" target='new'>About</a>
 </div>
 
 <div class="body">
     <h1><?php echo $title; ?></h1>
+    <br/>
 </div> 
-
