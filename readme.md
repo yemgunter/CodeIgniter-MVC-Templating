@@ -1,5 +1,5 @@
 <h1> CodeIgniter Web Application </h1>
-<p>Simple web application using in-development CodeIgniter code that will be used on CodeIginter's future releases.</p>
+<p>Simple web application using in-development CodeIgniter code.</p>
 <h2>Features</h2>
 <p>Web application template files are pure HTML.</p>
   <li>Header, Navigation and Footer Templates</li>
